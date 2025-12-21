@@ -1,0 +1,15 @@
+export type ActiveTab =
+  | "home"
+  | "mybooks"
+  | "books"
+  | "create"
+  | "about"
+  | "blog"
+  | "support"
+  | "cart"
+  | "services"
+  | "events"
+  | "mod"
+  | "follow"
+  | "reviews"
+  | "users"; 
