@@ -40,56 +40,53 @@ MongoDB database
 
 Scalable and maintainable codebase
 
-Tech Stack 
-Front-End
+## Tech Stack 
+Front-End : React , TypeScript ,Zustand ,Tailwind CSS
 
-React
+Back-End : NestJS , Node.js, MongoDB, JWT Authentication
 
-TypeScript
-
-Zustand
-
-Tailwind CSS
-
-Back-End
-
-NestJS
-
-Node.js
-
-MongoDB
-
-JWT Authentication
-
-Tools
-
-Git & GitHub
-
-Render / Netlify (Deployment)
+Tools: Git & GitHub, Render / Netlify (Deployment)
 
 How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/book-store.git
+git clone https://github.com/ZenZN99/Book-Store.git
 cd book-store
 
 2️⃣ Run Back-End (NestJS)
-cd backend
+cd nest
 npm install
 npm run start:dev
 
 
 Create a .env file and add:
 
-MONGO_URI=your_mongodb_connection_string
+ Server
+PORT=5000
+
+ Database
+DATABASE_URL=mongodb+srv://<DB_USERNAME>:<DB_PASSWORD>@<CLUSTER_URL>/<DB_NAME>
+
+ JWT
 JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=7d
+
+ Cloudinary
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+ Admin Account
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=admin_password
+
 
 
 The server will run on:
 
-http://localhost:3000
+http://localhost:5000
 
 3️⃣ Run Front-End (React)
-cd frontend
+cd react
 npm install
 npm run dev
 
@@ -101,8 +98,6 @@ http://localhost:5173
 Project Status
 
 🚀 The project is complete and ready for use, with future enhancements planned such as:
-
-Online payment integration
 
 Reviews and ratings
 
