@@ -1,24 +1,31 @@
-# 📚 Book Store – Full-Stack Web Application
+📚 Book Store – Full-Stack Web Application
 About
 
-A fully developed online bookstore designed for buying and selling books, providing a seamless experience for both customers and administrators. Users can browse books, add them to their cart, and complete purchases and payments effortlessly. Administrators can manage products, track sales, and control inventory in a simple and secure way. Project Features: Attractive and user-friendly interface. Comprehensive book and inventory management. Professional and extensive admin dashboard. Secure login system for both users and administrators. Ability to top up account balance and transfer funds between accounts. Easy and direct product image uploads. Benefits for Customers: A ready-to-use project that allows you to sell books professionally online, with full management of products, customers, and sales. It delivers an excellent user experience that encourages customers to return to the site again and again.
+Book Store is a fully developed online bookstore designed for buying and selling books, providing a seamless experience for both customers and administrators.
+
+Users can browse books, add them to their cart, and complete purchases effortlessly. Administrators can manage products, track sales, and control inventory in a simple and secure way.
+
+Benefits for Customers
+
+A ready-to-use project that allows selling books professionally online, with full control over products, customers, and sales.
+It delivers an excellent user experience that encourages customers to return again and again.
 
 Features
 👤 User Features
 
 Secure user registration and authentication
 
-View detailed book information
+Browse and view detailed book information
 
 Add books to cart
 
 Smooth and responsive user interface
 
-Professional  dashboard
+🛠 Admin Features
+
+Professional admin dashboard
 
 Create, update, and delete books (CRUD)
-
-🛠 Admin Features
 
 Manage inventory and stock
 
@@ -40,12 +47,32 @@ MongoDB database
 
 Scalable and maintainable codebase
 
-## Tech Stack 
-Front-End : React , TypeScript ,Zustand ,Tailwind CSS
+Tech Stack
+Front-End
 
-Back-End : NestJS , Node.js, MongoDB, JWT Authentication
+React
 
-Tools: Git & GitHub, Render / Netlify (Deployment)
+TypeScript
+
+Zustand
+
+Tailwind CSS
+
+Back-End
+
+NestJS
+
+Node.js
+
+MongoDB
+
+JWT Authentication
+
+Tools
+
+Git & GitHub
+
+Render / Netlify (Deployment)
 
 How to Run the Project
 1️⃣ Clone the Repository
@@ -58,28 +85,19 @@ npm install
 npm run start:dev
 
 
-Create a .env file and add:
+Create a .env file in the backend root directory.
 
- Server
-PORT=5000
-
- Database
-DATABASE_URL=mongodb+srv://<DB_USERNAME>:<DB_PASSWORD>@<CLUSTER_URL>/<DB_NAME>
-
- JWT
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=7d
-
- Cloudinary
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
- Admin Account
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=admin_password
-
-
+Environment Variables
+Variable Name	Description	Example Value
+PORT	Server port	5000
+DATABASE_URL	MongoDB connection string	mongodb+srv://<user>:<password>@cluster/...
+JWT_SECRET	JWT secret key	your_jwt_secret
+JWT_EXPIRES_IN	JWT expiration time	7d
+CLOUDINARY_CLOUD_NAME	Cloudinary cloud name	your_cloudinary_cloud_name
+CLOUDINARY_API_KEY	Cloudinary API key	your_cloudinary_api_key
+CLOUDINARY_API_SECRET	Cloudinary API secret	your_cloudinary_api_secret
+ADMIN_EMAIL	Default admin email	admin@example.com
+ADMIN_PASSWORD	Default admin password	admin_password
 
 The server will run on:
 
