@@ -1,16 +1,12 @@
-📚 Book Store – Full-Stack Web Application
+# 📚 Book Store – Full-Stack Web Application
 About
 
-Book Store is a fully developed full-stack web application designed for buying and selling books. It provides a smooth and modern experience for both users and administrators. Users can browse books, search, add items to the cart, and complete purchases easily, while administrators have full control through a professional dashboard.
-
-The front end is built using React, and the back end is developed with NestJS, following a clean and scalable architecture, with MongoDB as the database.
+A fully developed online bookstore designed for buying and selling books, providing a seamless experience for both customers and administrators. Users can browse books, add them to their cart, and complete purchases and payments effortlessly. Administrators can manage products, track sales, and control inventory in a simple and secure way. Project Features: Attractive and user-friendly interface. Comprehensive book and inventory management. Professional and extensive admin dashboard. Secure login system for both users and administrators. Ability to top up account balance and transfer funds between accounts. Easy and direct product image uploads. Benefits for Customers: A ready-to-use project that allows you to sell books professionally online, with full management of products, customers, and sales. It delivers an excellent user experience that encourages customers to return to the site again and again.
 
 Features
 👤 User Features
 
 Secure user registration and authentication
-
-Browse and search books
 
 View detailed book information
 
@@ -18,11 +14,11 @@ Add books to cart
 
 Smooth and responsive user interface
 
-🛠 Admin Features
-
-Professional admin dashboard
+Professional  dashboard
 
 Create, update, and delete books (CRUD)
+
+🛠 Admin Features
 
 Manage inventory and stock
 
@@ -44,8 +40,7 @@ MongoDB database
 
 Scalable and maintainable codebase
 
-Tech Stack
-
+Tech Stack 
 Front-End
 
 React
