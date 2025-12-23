@@ -96,10 +96,8 @@ npm install
 npm run dev
 The application will run on:
 
-arduino
-Copy code
 http://localhost:5173
-Project Status
+```
 🚀 The project is complete and ready for use, with future enhancements planned such as:
 
 Reviews and ratings
@@ -112,3 +110,6 @@ Author
 Zen
 Full-Stack Software Engineer
 Built with ❤️ using React & NestJS
+ذذذ
+
+يبب
