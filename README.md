@@ -1,73 +1,122 @@
-# React + TypeScript + Vite
+📚 Book Store – Full-Stack Web Application
+About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Book Store is a fully developed full-stack web application designed for buying and selling books. It provides a smooth and modern experience for both users and administrators. Users can browse books, search, add items to the cart, and complete purchases easily, while administrators have full control through a professional dashboard.
 
-Currently, two official plugins are available:
+The front end is built using React, and the back end is developed with NestJS, following a clean and scalable architecture, with MongoDB as the database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+👤 User Features
 
-## React Compiler
+Secure user registration and authentication
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse and search books
 
-## Expanding the ESLint configuration
+View detailed book information
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Add books to cart
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Smooth and responsive user interface
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🛠 Admin Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Professional admin dashboard
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Create, update, and delete books (CRUD)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Manage inventory and stock
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Manage users
+
+Full control over store content
+
+⚙️ Technical Features
+
+RESTful API built with NestJS
+
+Clean and modular architecture
+
+State management using Zustand
+
+Full front-end and back-end integration
+
+MongoDB database
+
+Scalable and maintainable codebase
+
+Tech Stack
+
+Front-End
+
+React
+
+TypeScript
+
+Zustand
+
+Tailwind CSS
+
+Back-End
+
+NestJS
+
+Node.js
+
+MongoDB
+
+JWT Authentication
+
+Tools
+
+Git & GitHub
+
+Render / Netlify (Deployment)
+
+How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/book-store.git
+cd book-store
+
+2️⃣ Run Back-End (NestJS)
+cd backend
+npm install
+npm run start:dev
+
+
+Create a .env file and add:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+
+The server will run on:
+
+http://localhost:3000
+
+3️⃣ Run Front-End (React)
+cd frontend
+npm install
+npm run dev
+
+
+The application will run on:
+
+http://localhost:5173
+
+Project Status
+
+🚀 The project is complete and ready for use, with future enhancements planned such as:
+
+Online payment integration
+
+Reviews and ratings
+
+Multi-language support
+
+Dark / Light mode
+
+Author
+
+Zen
+Full-Stack Software Engineer
+Built with ❤️ using React & NestJS
