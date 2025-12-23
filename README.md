@@ -19,10 +19,11 @@ It delivers an excellent user experience that encourages customers to return aga
 - Browse and view detailed book information
 - Add books to cart
 - Smooth and responsive user interface
+- Professional  dashboard
+- Create, update, and delete books (CRUD)
 
 ### 🛠 Admin Features
-- Professional admin dashboard
-- Create, update, and delete books (CRUD)
+- Professional admin  dashboard
 - Manage inventory and stock
 - Manage users
 - Full control over store content
@@ -85,8 +86,6 @@ ADMIN_PASSWORD	Default admin password	admin_password
 
 The server will run on:
 
-arduino
-Copy code
 http://localhost:5000
 3️⃣ Run Front-End (React)
 bash
