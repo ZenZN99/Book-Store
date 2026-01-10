@@ -107,7 +107,7 @@ Dark / Light mode
 
 Author
 Zen
-Full-Stack Software Engineer
+Full-Stack Developer 
 Built with ❤️ using React & NestJS
 
 
